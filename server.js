@@ -11,7 +11,7 @@ app.use('/api', function(req, res, next) {  // GET 'http://www.example.com/admin
   switch(req.method){
   	case 'GET':
   		switch(req.path){
-  			case 'getBotInfo':
+  			case '/getBotInfo':
   				res.send('BOTINFO');
   				break;
   		}
