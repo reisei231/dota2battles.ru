@@ -4,7 +4,7 @@ const MongoClient    = require('mongodb').MongoClient;
 const bodyParser     = require('body-parser');
 const app            = express();
 const pm2 			 = require('pm2');
-const port = 8000;
+const port = 80;
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use('/api', function(req, res, next) {  // GET 'http://www.example.com/admin/new'
