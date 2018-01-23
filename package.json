@@ -23,6 +23,7 @@
     "pm2": "^2.9.2"
   },
   "devDependencies": {
-    "nodemon": "^1.11.0"
+    "mocha": "^4.0.0",
+    "should": "^13.1.3"
   }
 }
