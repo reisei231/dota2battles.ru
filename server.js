@@ -42,13 +42,5 @@ pm2.connect(function(err) {
     process.exit(2);
   }
   
-  pm2.start({
-    script    : 'test.js',         // Script to be run
-    exec_mode : 'cluster',        // Allows your app to be clustered
-    instances : 16,                // Optional: Scales your app by 4
-    max_memory_restart : '100M'   // Optional: Restarts your app if it reaches 100Mo
-  }, function(err, apps) {
-    pm2.disconnect();   // Disconnects from PM2
-    if (err) throw err
-  });
+ console.log("pm2 is works");
 });
