@@ -1,0 +1,6 @@
+{
+	"name": "BOT_1",
+	"script" : "bot1.js",
+	"args": "1 d2battles nT3J2aT3",
+	"watch": "true"
+}
